@@ -1,0 +1,36 @@
+{
+    "appconfig": {
+        "headless": false,
+        "darkmode": false,
+        "isGroupReply":false
+    },
+    "bot": [
+        {
+            "contains": [],
+            "exact": [],
+            "response": "!!"
+        },
+        {
+            "contains": ["Oi"],
+            "exact": [],
+            "response": "Oi , pode falar seu problema\n e ao final digitar # !!"
+        },
+        {
+            "contains": ["Menu"],
+            "exact": [],
+            "response": "\n 1 - Instruções \n2 - Números do Suporte \n3 - Gritar "
+        },
+        {
+            "contains": [],
+            "exact": ["github"],
+            "response": "Git Hub Logo",
+            "file":"github.png"
+        }
+    ],
+    "blocked": [],
+    "noMatch":"",
+    "smartreply":{
+        "suggestions":["👍","Oxe","Calma","Tudo bem","Obrigado"],
+        "clicktosend":true
+    }
+}

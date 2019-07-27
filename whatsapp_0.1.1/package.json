@@ -1,0 +1,56 @@
+{
+  "name": "wbot",
+  "version": "0.7.0",
+  "description": "A simple whatsapp reply bot using puppeteer.",
+  "main": "src/index.js",
+  "scripts": {
+    "app": "node src/index.js",
+    "pack": "pkg ."
+  },
+  "bin": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasani-arpit/WBOT"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automation"
+  ],
+  "private": true,
+  "pkg": {
+    "scripts": "src/**/*.js",
+    "targets": [
+      "win",
+      "linux",
+      "macos"
+    ]
+  },
+  "author": "Arpit Vasani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasani-arpit/WBOT/issues"
+  },
+  "homepage": "https://github.com/vasani-arpit/WBOT#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cli-progress": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "mime": "^2.4.4",
+    "mongodb": "^3.3.0-beta2",
+    "mysql": "^2.17.1",
+    "node-fetch": "^2.3.0",
+    "ora": "^3.0.0",
+    "puppeteer": "^1.19.0",
+    "puppeteer-core": "^1.16.0",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^2.2.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.5"
+  }
+}
